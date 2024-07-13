@@ -14,7 +14,6 @@ const ListAnime = ({ newList }) => {
   console.log("animeList", animeList);
 
   // delete anime
-
   const deleteAnime = async (id) => {
     try {
       const deleteAnime = await fetch(`http://localhost:5000/anime/${id}`, {
